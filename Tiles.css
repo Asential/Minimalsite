@@ -1,0 +1,199 @@
+body{
+    background-color: yellow;
+}
+p{
+    color: rgb(0, 0, 0);
+    
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    text-align: center;
+}
+.Content{
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    padding-top: 2%;
+    margin: 30px;
+    font-size: 4em;
+  
+}
+.container {
+    font-size: 0;
+    position: relative;
+    width: 100%;
+  }
+
+.image {
+    max-width:100%;
+    max-height:100%;
+}
+
+#one{
+    background-color: yellow;
+    padding: 5%;
+}
+#two{
+    background-color: rgb(255, 255, 255);
+    padding: 5%;
+}
+#three{
+    background-color: rgb(255, 255, 255);
+    padding: 5%;
+}
+
+#four{
+    background-color: yellow;
+    padding: 5%;
+}
+
+.overlay1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15px;
+    right:  15px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #dd5ef7;
+  }
+  .container:hover .overlay1 {
+    opacity: 0.3;
+    
+  }
+  .container:hover .image1 {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    
+  }
+  .overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15px;
+    right:  15px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #202020;
+  }
+  .container:hover .overlay2 {
+    opacity: 0.3;
+    
+  }
+  .container:hover .image2 {
+    transition: ease;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    
+  }
+  .overlay3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15px;
+    right:  15px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #272323;
+  }
+  .container:hover .overlay3 {
+    opacity: 0.3;
+    
+  }
+  .container:hover .image3 {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    
+  }
+
+  .overlay4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15px;
+    right:  15px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #918b8b;
+  }
+  .container:hover .overlay4 {
+    opacity: 0.3;
+    
+  }
+  .container:hover .image4 {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    
+  }
+  .container:hover .text1{
+      opacity: 1;
+  }
+  .container:hover .text2{
+    opacity: 1;
+}
+
+.container:hover .text3{
+    opacity: 1;
+}
+
+.container:hover .text4{
+    opacity: 1;
+}
+
+  
+  .text1 {
+      opacity: 0;
+    font-family: 'Questrial', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+  }
+  .text2 {
+    opacity: 0;
+  font-family: 'Questrial', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text3 {
+    opacity: 0;
+  font-family: 'Questrial', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text4 {
+    opacity: 0;
+  font-family: 'Questrial', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  

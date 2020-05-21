@@ -1,0 +1,65 @@
+.Content{
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    padding-top: 2%;
+    margin: 30px;
+    font-size: 4em;
+    color: chartreuse;
+  
+}
+.content-table {
+margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+#headingOne{
+    background-color: black;
+}
+#headingOne:hover{
+    background-color: cyan;
+}
+#headingTwo{
+    background-color: chartreuse;
+}
+#headingTwo:hover{
+    background-color: cyan;
+}
+#headingThree{
+    background-color: black;
+}
+
+#headingThree:hover{
+    background-color: cyan;
+}
+
+#headingFive{
+    background-color: black;
+}
+    
+#headingFive:hover{
+    background-color: cyan;
+}
+#headingFour{
+    background-color: chartreuse;
+}
+#headingFour:hover{
+    background-color: cyan;
+}
+p{
+    color: rgb(0, 0, 0);
+    
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    text-align: center;
+}
+.back{
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    font-size: small;
+}
