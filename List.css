@@ -17,20 +17,20 @@ h1{
     background-color: black;
 }
 #headingOne:hover{
-    background-color: cyan;
+    background-color: rgb(46, 46, 46);
 }
 #headingTwo{
     background-color: chartreuse;
 }
 #headingTwo:hover{
-    background-color: cyan;
+    background-color: rgb(255, 255, 255);
 }
 #headingThree{
     background-color: black;
 }
 
 #headingThree:hover{
-    background-color: cyan;
+    background-color: rgb(46, 46, 46);
 }
 
 #headingFive{
@@ -38,15 +38,15 @@ h1{
 }
     
 #headingFive:hover{
-    background-color: cyan;
+    background-color: rgb(46, 46, 46);
 }
 #headingFour{
     background-color: chartreuse;
 }
 #headingFour:hover{
-    background-color: cyan;
+    background-color: rgb(255, 255, 255);
 }
-p{
+p{`
     color: rgb(0, 0, 0);
     
     display: block;
