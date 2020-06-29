@@ -1,4 +1,4 @@
-.Content{
+#content{
     font-family: 'Questrial', sans-serif;
     text-align: center;
     padding-top: 2%;
@@ -9,6 +9,9 @@
 }
 .content-table {
 margin: 0 auto;
+}
+body{
+    background-color: rgb(0, 0, 0)
 }
 h1{
     text-align: center;
