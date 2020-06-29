@@ -1,0 +1,57 @@
+
+body{
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+  }
+  .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  a{
+    color: #000;
+    text-decoration: none;
+    span{
+        font-size: 2.1em;
+      font-weight: 100;
+      transition: all .5s;
+      border-bottom: 1px solid;
+    }
+    &:hover{
+      span{
+        font-weight: 700;
+      }
+    }
+
+
+    &.hover-shadow{
+      &:hover{
+        $color: #ddd;
+      text-shadow: 1px 1px 0px $color, 2px 2px 0px $color, 3px 3px 0px $color;
+      }
+    }
+    &.hover-color{
+      &:hover{
+        $color: #ddd;
+      //color: darkmagenta;
+      border-color: darkmagenta;
+      }
+    }
+    &.hover-shadow-b{
+        &:hover{
+          $color: rgb(0, 0, 0);
+        text-shadow: 1px 1px 0px $color, 2px 2px 0px $color, 3px 3px 0px $color;
+        }
+      }
+      &.hover-color-b{
+        &:hover{
+          $color: rgb(0, 0, 0);
+        //color: darkmagenta;
+        border-color: darkmagenta;
+        }
+      }
+  }

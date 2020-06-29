@@ -1,0 +1,92 @@
+#content {
+	font-family: 'Questrial', sans-serif;
+	text-align: center;
+	padding-top: 2%;
+	margin: 30px;
+	font-size: 4em;
+	color: chartreuse;
+}
+.content-table {
+	margin: 0 auto;
+}
+body {
+	background-color: rgb(240, 240, 240);
+}
+h1 {
+	text-align: center;
+}
+
+.headingblack{
+    font-family: Questrial;
+    font-size: 1em;
+    background-color: black;
+    &:hover {
+		background-color: rgb(46, 46, 46);
+	}
+}
+
+.headinggreen{
+    @extend .headingblack;
+    background-color: chartreuse;
+    &:hover {
+        background-color: rgb(255, 255, 255);
+        
+    }
+}
+
+p {
+	color: rgb(0, 0, 0);
+	display: block;
+	font-size: 2em;
+	margin-top: 0.67em;
+	margin-bottom: 0.67em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+	text-align: center;
+}
+.back {
+	font-family: 'Questrial', sans-serif;
+	text-align: center;
+	font-size: small;
+}
+a {
+	color: #000;
+	text-decoration: none;
+	span {
+		font-size: 2.1em;
+		font-weight: 100;
+		transition: all .5s;
+		border-bottom: 1px solid;
+	}
+	&:hover {
+		span {
+			font-weight: 700;
+		}
+	}
+}
+a.hover-shadow {
+	&:hover {
+		text-shadow: 1px 1px 0px #ddd, 2px 2px 0px #ddd, 3px 3px 0px #ddd;
+	}
+}
+a.hover-color {
+	&:hover {
+		border-color: darkmagenta;
+	}
+}
+a.hover-shadow-b {
+	&:hover {
+		text-shadow: 1px 1px 0px #161616, 2px 2px 0px #161616, 3px 3px 0px #161616;
+	}
+}
+a.hover-color-b {
+	&:hover {
+		border-color: darkmagenta;
+	}
+}
+@media only screen and (max-width: 600px) {
+	body {
+		background-color: black;
+	}
+}
